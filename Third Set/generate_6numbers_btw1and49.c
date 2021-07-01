@@ -3,14 +3,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h> 
-int main()
-{
+
+int main() {
+    
     int i, number;
     
     srand(time(NULL));
     
-    for(i = 0 ; i < 6 ; i++)
-    {
+    for(i = 0 ; i < 6 ; i++) {
+       
         number = rand() % 49;
         printf("%d\t",number);
     }
